@@ -5,3 +5,7 @@ export function userManager(user) {
 export function userController(user) {
   return [user, user, user]
 }
+
+export function userController(user) {
+  return [user, user, user]
+}
