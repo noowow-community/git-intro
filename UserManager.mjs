@@ -1,3 +1,3 @@
 export function userManager(user) {
-  return user;
+  return [user, user]
 }
