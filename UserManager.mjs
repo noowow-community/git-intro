@@ -3,4 +3,8 @@ export function userManager(user) {
     this.databse.save(user)
     console.log('Save user', JSON.stringify(user))
   }
+
+  this.deleteUser = function (user) {
+    this.databse.delete(user)
+  }
 }
