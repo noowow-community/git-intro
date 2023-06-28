@@ -11,4 +11,8 @@ export function userManager(user) {
   this.updateUser = function (user) {
     this.databse.update(user)
   }
+
+  this.listUser = function () {
+    this.databse.all()
+  }
 }
